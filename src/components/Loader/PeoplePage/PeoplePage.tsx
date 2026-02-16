@@ -29,7 +29,7 @@ export const PeoplePage: React.FC = () => {
             <>
               {errorMessage && (
                 <p data-cy="peopleLoadingError" className="has-text-danger">
-                  Something went wrong
+                  {errorMessage}
                 </p>
               )}
 
